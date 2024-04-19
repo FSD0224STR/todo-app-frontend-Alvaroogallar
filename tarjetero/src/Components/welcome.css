@@ -1,0 +1,24 @@
+.welcome {
+    background: url(../assets/img/monigote.png) center no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 500px;
+}
+
+.títuloBienvenido {
+    height: 300px;
+    width: 400px;
+    padding-left: 190px
+}
+
+.bienvenido {
+    font-size: 30px;
+}
+
+.startingButton {
+    margin-top: 20px;
+    margin-left: 10px;
+}

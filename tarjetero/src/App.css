@@ -1,27 +1,9 @@
 
 
 body {
-  background-color: #518bae;
+  background: url(../src/assets/img/parquet.jpg);
+  
   
 }
 
 
-
-.cajaPrincipal {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-}
-
-
-.creador {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.descripción {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}

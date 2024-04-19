@@ -1,0 +1,40 @@
+.cajaModificar {
+    display: flex;
+    height: 500px;
+    width: 1250px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.modficada {
+    display: flex;
+    flex-direction: column;
+}
+
+.fechaModificar {
+    
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.títuloTareaNuevaModificar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.descripciónModificar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.info {
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 10px;
+    color: red;
+}

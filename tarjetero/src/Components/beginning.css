@@ -1,0 +1,95 @@
+
+
+
+.cajaPrincipal {
+    display: flex;
+    gap: 25px;
+}
+.tarjetero {
+    display: flex;
+    gap: 15px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+.imagenMuelle {
+    mix-blend-mode: multiply;
+}
+.fecha {
+    margin-left: 35px;
+}
+.creador {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-width: 350px;
+    gap: 30px;
+    height: 100vh;
+    background: url(../assets/img/cuaderno2.png);
+    background-size: 100% 100%;
+    
+    padding: 10px;
+    
+    color: black;
+}
+
+.descripción {
+    display: flex;
+    margin-left: 35px;
+    flex-direction: column;
+    
+    gap: 10px;
+}
+
+
+.título {
+    display: flex;
+    /* background-color: #ADDB5C; */
+    color: black;
+    font-size: 40px;
+    padding: 10px;
+    /* border-radius: 5%; */
+    margin-top: 10px;
+    margin-bottom: 0px;
+    /* place-items: center; */
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.títuloTareaNueva {
+    display: flex;
+    margin-left: 35px;
+    flex-direction: column;
+    
+    gap: 10px;
+}
+
+textarea {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5%;
+    max-width: 270px;
+}
+input {
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 5%;
+}
+
+.añadirTarea {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 211px;
+    /* height: 40px; */
+    font-size: 20px;
+    background-color: rgb(145, 22, 22);
+    border: none;
+    color: #fff0c9;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
